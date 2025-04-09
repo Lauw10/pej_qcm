@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Anapath 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Anapath 2</h1>
+        
+        <div id="start-screen" class="screen">
+            <p>Battez les records, restez au sommet!</p>
+            <div id="best-score-display" class="best-score">
+                Meilleur score: <span id="best-score-value">0</span>/100
+                <button id="reset-best-score-btn" class="reset-btn">Réinitialiser</button>
+            </div>
+
+            <button id="start-btn" class="btn">Commencer le quiz</button>
+        </div>
+        
+        <div id="quiz-container" class="screen hide">
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+            <div class="controls">
+                <button id="next-btn" class="btn hide">Question suivante</button>
+            </div>
+        </div>
+        
+        <div id="results-screen" class="screen hide">
+            <h2>Résultats</h2>
+            <div id="results"></div>
+            <div id="score-text"></div>
+            <button id="restart-btn" class="btn">Recommencer</button>
+        </div>
+    </div>
+
+    <script src="anapath.js"></script>
+</body>
+</html>
