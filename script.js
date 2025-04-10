@@ -1,94 +1,49 @@
 const questions = [
-        {
-            question: "Quelle lésion est caractéristique de la tuberculose ?",
-            answers: [
-                { text: "Nécrose caséeuse", correct: true },
-                { text: "Nécrose fibrinoïde", correct: false },
-                { text: "Nécrose coagulée", correct: false },
-                { text: "Nécrose liquéfiée", correct: false }
-            ]
-        },
-        {
-            question: "Quelle tumeur est associée à la mutation du gène BRCA1 ?",
-            answers: [
-                { text: "Cancer du sein", correct: true },
-                { text: "Cancer colorectal", correct: false },               
-                { text: "Lymphome non hodgkinien", correct: false },
-                { text: "Cancer du poumon", correct: false }
-            ]
-        },
-        {
-            question: "Quelle est la caractéristique histologique principale d'un adénocarcinome ?",
-            answers: [
-                { text: "Cellules fusiformes", correct: false },
-                { text: "Présence de cellules géantes", correct: false },
-                { text: "Formation de structures glandulaires", correct: true }, 
-                { text: "Stroma myxoïde", correct: false }
-            ]
-        },
-        {
-            question: "Quelle maladie se caractérise par des dépôts de substance amyloïde ?",
-            answers: [
-                { text: "Sarcoïdose", correct: false },
-                { text: "Amylose", correct: true },
-                { text: "Cirrhose biliaire primitive", correct: false },
-                { text: "Maladie de Crohn", correct: false }            
-            ]
-        },
-        {
-            question: "Quelle est la lésion pré-cancéreuse du col utérin ?",
-            answers: [                
-                { text: "Polype cervical", correct: false },
-                { text: "Hyperplasie endométriale", correct: false },
-                { text: "Dysplasie cervicale (CIN)", correct: true },
-                { text: "Métaplasie squameuse", correct: false }
-            ]
-        },
-        {
-            question: "Quelle pathologie cérébrale est associée aux plaques séniles ?",
-            answers: [
-                { text: "Chorée de Huntington", correct: false },
-                { text: "Maladie d'Alzheimer", correct: true },
-                { text: "Sclérose en plaques", correct: false },
-                { text: "Maladie de Parkinson", correct: false }
-            ]
-        },
-        {
-            question: "Quel marqueur est spécifique du mélanome malin ?",
-            answers: [
-                { text: "CD20", correct: false },
-                { text: "AFP", correct: false },
-                { text: "PSA", correct: false },
-                { text: "HMB-45", correct: true }
-            ]
-        },
-        {
-            question: "Quelle est la cause principale de cirrhose dans les pays occidentaux ?",
-            answers: [
-                { text: "Hépatite auto-immune", correct: false },
-                { text: "Stéatose hépatique non alcoolique", correct: false },
-                { text: "Hépatite B", correct: false },
-                { text: "Alcoolisme chronique", correct: true }
-            ]
-        },
-        {
-            question: "Quel type de cancer est associé à la mutation du gène p53 ?",
-            answers: [
-                { text: "Cancer colorectal", correct: true },
-                { text: "Cancer de la thyroïde", correct: false },
-                { text: "Mélanome", correct: false },
-                { text: "Leucémie lymphoïde chronique", correct: false }
-            ]
-        },
-        {
-            question: "Quelle lésion pulmonaire est typique de la silicose ?",
-            answers: [
-                { text: "Infiltrats alvéolaires", correct: false },               
-                { text: "Bronchectasies", correct: false },
-                { text: "Nodules fibrohyalins", correct: true },
-                { text: "Cavités tuberculoïdes", correct: false }
-            ]
-        }
+   {
+        question: "Quel signe ECG est pathognomonique d'un infarctus STEMI ?",
+        answers: [
+            { text: "Ondes U prominentes", correct: false },
+            { text: "Sus-décalage du segment ST", correct: true },
+            { text: "Aplatissement de l'onde T", correct: false },
+            { text: "Onde Q profonde", correct: false }
+        ]
+    },
+    {
+        question: "Quel germe cause le plus souvent les pneumonies communautaires ?",
+        answers: [
+            { text: "Streptococcus pneumoniae", correct: true },
+            { text: "Legionella pneumophila", correct: false },
+            { text: "Mycoplasma pneumoniae", correct: false },
+            { text: "Klebsiella pneumoniae", correct: false }
+        ]
+    },
+    {
+        question: "Quel est le mécanisme d'action des bêta-bloquants ?",
+        answers: [
+            { text: "Inhibition de l'enzyme de conversion", correct: false },
+            { text: "Activation des récepteurs muscariniques", correct: false },
+            { text: "Inhibition des canaux calciques", correct: false },
+            { text: "Blocage des récepteurs bêta-adrénergiques", correct: true }
+        ]
+    },
+    {
+        question: "Quelle complication est la plus redoutée dans l'asthme aigu grave ?",
+        answers: [
+            { text: "Emphysème sous-cutané", correct: false },
+            { text: "Pneumothorax", correct: false },
+            { text: "Arrêt respiratoire", correct: true },
+            { text: "Bronchectasies", correct: false }
+        ]
+    },
+   {
+        question: "Quelle lésion est caractéristique de la tuberculose ?",
+        answers: [
+            { text: "Nécrose caséeuse", correct: true },
+            { text: "Nécrose fibrinoïde", correct: false },
+            { text: "Nécrose coagulée", correct: false },
+            { text: "Nécrose liquéfiée", correct: false }
+        ]
+    }
 ];
 
 // Éléments du DOM
